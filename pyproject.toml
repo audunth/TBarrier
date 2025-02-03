@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "tbarrier"
+version = "0.1.0"
+description = "forked from haller-group/TBarrier"
+authors = ["Audun Theodorsen <audun.theodorsen@uit.no>"]
+license = "GNU GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numba = "^0.61.0"
+sdeint = "^0.3.0"
+jupyter = "^1.1.1"
+joblib = "^1.4.2"
+matplotlib = "^3.10.0"
+scipy = "^1.15.1"
+tqdm = "^4.67.1"
+shapely = "^2.0.7"
+mat73 = "^0.65"
+plotly = "^6.0.0"
+ipynb = "^0.5.1"
+great-circle-calculator = "^1.3.1"
+scikit-image = "^0.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
